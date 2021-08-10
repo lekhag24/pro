@@ -1,0 +1,159 @@
+/* importing css file inside css file even i am not using link here */
+/* @import url(""); */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background: #eee;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  #headerBlock {
+    background: rgb(216 79 87);
+    height: 60px;
+  }
+  
+  #headerBlock article {
+    background: rgb(216 79 87);
+    height: 60px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logoBlock {
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+  }
+  .menuBlock {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .logo {
+    flex-basis: 18%;
+  }
+  .left_menu {
+    flex-basis: 88%;
+  }
+  
+  .left_menu ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .left_menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  
+  .rPool a {
+    text-transform: initial !important;
+  }
+  
+  .rPool sup {
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  
+  /* right Menu Block starts here */
+  .menuBlock ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+  }
+  
+  .menuBlock ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 21px 10px;
+    text-transform: capitalize;
+    font-size: 13px;
+  }
+  
+  /* dropdown menu */
+  .menuBlock .dropdownMenu {
+    background: rgb(255 255 255);
+    display: block;
+    position: absolute;
+    color: rgb(255 255 255);
+    width: 178px;
+    margin-top: 20px;
+    box-shadow: 1px 3px 6px 0px #999;
+    display: none;
+  }
+  
+  .menuBlock .dropdownMenu li a {
+    font-weight: bold;
+    color: rgb(17 17 17);
+    padding: 7px 10px;
+    display: block;
+    font-size: 12px;
+  }
+  
+  .arrowIcon {
+    content: " ";
+    position: absolute;
+    bottom: 100%;
+    left: 61%;
+    margin-left: -5px;
+    border-width: 12px;
+    border-style: solid;
+    border-color: rgb(0 0 0 / 0%) rgb(0 0 0 / 0%) rgb(255 255 255);
+  }
+  
+  .menuBlock li:hover > ul {
+    display: block;
+  }
+  
+  .dropdownMenu li:nth-child(2) a {
+    color: #999 !important;
+  }
+  
+  .arrow_icon i {
+    position: absolute;
+    font-size: 23px;
+    left: 5px;
+    font-weight: lighter;
+  }
+  
+  .arrow_icon {
+    position: relative;
+    width: 20px;
+  }
+  
+  .user_icon {
+    position: relative;
+    width: 36px;
+    display: inline-block;
+    margin: -5px 5px;
+  }
+  .user_icon i {
+    font-size: 38px;
+    width: 33px;
+    display: inline-block;
+    font-weight: 100;
+    position: absolute;
+    top: -28px;
+    left: 0px;
+  }
+  
+  .auth_menu {
+    width: 250px !important;
+    position: absolute !important;
+    right: 140px;
+  }
+  .auth_menu .arrowIcon {
+    left: 84%;
+  }

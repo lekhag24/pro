@@ -1,0 +1,19 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    /* background-color: rgb(206, 39, 39); rgb*/
+    /* background-color: brown; solid */
+    /* background-color: #81c9e3; hex */
+    /* background-color: rgba(rgb(212, 135, 135), green, blue, alpha); rgba */
+    /* HSL/HSLA (Hue saturation lightness)*/
+    /* background-color: hsl(hue, saturation, lightness) */
+    /* background-image: */
+    /*background-color: #111111;
+    background-image: url(../) */
+
+    /* background Gradients */
+    background: linear-gradient(to left, rgb(214, 162, 162), rgb(163, 240, 163), crimson);
+}
